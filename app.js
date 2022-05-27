@@ -23,7 +23,7 @@ app.use(webpackHotMiddleware(compiler, {
   heartbeat: 10 * 1000,
 }));
 
-app.use(express.static(path.join(__dirname, 'src')));
+app.use(express.static(path.join(__dirname, 'docs')));
 app.listen(8000, '0.0.0.0', function() {});
 module.exports = app;
 
