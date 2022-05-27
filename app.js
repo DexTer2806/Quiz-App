@@ -26,3 +26,4 @@ app.use(webpackHotMiddleware(compiler, {
 app.use(express.static(path.join(__dirname, 'src')));
 app.listen(8000, '0.0.0.0', function() {});
 module.exports = app;
+
